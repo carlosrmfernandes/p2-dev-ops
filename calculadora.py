@@ -17,6 +17,15 @@ def divisao(a, b):
         return "Erro: divisão por zero!"
     return a / b
 
+def somar_2302692_2303304(a,b):
+    return a+b
+def subtrair_2302692_2303304(a,b):
+    return a-b
+def dividir_2302692_2303304(a,b):
+    return a/b
+def multiplicar_2302692_2303304(a,b):
+    return a*b
+
 print(soma(5, 3))         # Saída: 8
 print(subtracao(5, 3))    # Saída: 2
 print(multiplicacao(5, 3)) # Saída: 15
