@@ -1,4 +1,18 @@
 
+def somar(numero1,numero2):
+    return numero1+numero2
+
+def subtrair(numero1, numero2):
+    return numero1 - numero2
+
+def dividir(numero1, numero2):
+    return numero1/numero2
+
+
+def multuplicar(numero1,numero2):
+    return numero1*numero2
+
+
 def soma_2303142_2302304(n1,n2):
     return n1+n2
 
@@ -86,4 +100,3 @@ if __name__ == '__main__':
     subtrair(ra1, ra2)
     multiplicar(ra1, ra2)
     dividir(ra1, ra2)
-
