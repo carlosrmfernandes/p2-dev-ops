@@ -1,4 +1,4 @@
-def calcular(a, b, operacao):
+def calcular_2302273_2302995(a, b, operacao):
     if operacao == '1': 
         return a + b
     elif operacao == '2':  
