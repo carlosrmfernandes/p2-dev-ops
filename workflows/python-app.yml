@@ -3,10 +3,10 @@ name: Python CI
 on:
   push:
     branches:
-      - main     
+      - feature/calculadora_2302692_2303304
   pull_request:
     branches:
-      - main        
+      - feature/calculadora_2302692_2303304     
 
 jobs:
   test:

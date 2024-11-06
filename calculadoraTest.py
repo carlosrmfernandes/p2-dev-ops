@@ -1,6 +1,6 @@
 ## Testes das funcoes da calculadora
 import unittest
-from calculadora import somar, subtrair, multiplicar, dividir
+from calculadora0 import somar, subtrair, multiplicar, dividir
 
 class TestCalculadora(unittest.TestCase):
 
