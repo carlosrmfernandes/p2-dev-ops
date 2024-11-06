@@ -1,34 +1,23 @@
-name: CI
-#
+name: Python Application CI
+
 on:
   push:
-    branches: [ main ]
+    branches:
+      - feature/calculadora_2302437_2301076_retificacao
   pull_request:
-    branches: [ main ]
-
+    branches:
+      - feature/calculadora_2302437_2301076_retificacao
 jobs:
   test:
-
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        python-version: [3.11]
+    steps:      
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    steps:
-    - name: Checkout do Código
-      uses: actions/checkout@v3
-
-    - name: Configurar Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: ${{ matrix.python-version }}
-
-    - name: Instalar Dependências
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-
-    - name: Executar Testes
-      run: |
-        python calculadoraTest.py
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+      - name: Run tests
+        run: python3 -m unittest calculadora_test.py
