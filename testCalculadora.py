@@ -1,4 +1,14 @@
 import unittest
+
+from calculadora0 import somar_2302692_2303304
+from calculadora0 import subtrair_2302692_2303304
+from calculadora0 import multiplicar_2302692_2303304
+from calculadora0 import dividir_2302692_2303304  
+
+from calculadora0 import somar_2302692_2303304
+from calculadora0 import subtrair_2302692_2303304
+from calculadora0 import multiplicar_2302692_2303304
+from calculadora0 import dividir_2302692_2303304  
 from calculadora import somar_2302692_2303304
 from calculadora import subtrair_2302692_2303304
 from calculadora import multiplicar_2302692_2303304
