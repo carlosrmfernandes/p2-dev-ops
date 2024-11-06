@@ -1,4 +1,19 @@
 
+def calcular_2302273_2302995(a, b, operacao):
+    if operacao == '1': 
+        return a + b
+    elif operacao == '2':  
+        return a - b
+    elif operacao == '3':  
+        return a * b
+    elif operacao == '4':  
+        if b == 0:
+            raise ValueError("Não é possível dividir por zero")
+        return a / b
+    else:
+        raise ValueError("Operação inválida")
+
+
 def soma_2302994_2303258(som1,som2):
     return som1 + som2
 
@@ -59,3 +74,4 @@ if __name__ == '__main__':
     subtrair(ra1, ra2)
     multiplicar(ra1, ra2)
     dividir(ra1, ra2)
+
