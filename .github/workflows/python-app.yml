@@ -3,10 +3,10 @@ name: Python Application Tests
 on:
   push:
     branches:
-      - feature/checkout_2302692_2303304
+      - feature/calculadora_2302692_2303304
   pull_request:
     branches:
-      - feature/checkout_2302692_2303304
+      - feature/calculadora_2302692_2303304
 jobs:
   test:
     runs-on: ubuntu-latest
