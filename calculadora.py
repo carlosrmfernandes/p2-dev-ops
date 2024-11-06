@@ -1,4 +1,14 @@
 
+feature/checkout_2302692_2303304
+def somar_2302692_2303304(a,b):
+    return a+b
+def subtrair_2302692_2303304(a,b):
+    return a-b
+def dividir_2302692_2303304(a,b):
+    return a/b
+def multiplicar_2302692_2303304(a,b):
+    return a*b
+
 # Função de soma
 def soma(a, b):
     return a + b
@@ -73,6 +83,7 @@ def dividir(numero1, numero2):
 
 def multuplicar(numero1,numero2):
     return numero1*numero2
+
 
 
 def soma_2303142_2302304(n1,n2):
