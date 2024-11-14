@@ -12,3 +12,8 @@ def dividir_2302437_2301076_retificacao_(a, b):
     if b == 0:
         raise ValueError("Divisão por zero não é permitida.")
     return a / b
+
+
+def teste(a,b):
+    a = b
+    pass
